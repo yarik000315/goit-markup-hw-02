@@ -36,6 +36,11 @@
     opacity: 1;
   } */
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
 :root {
   --text-color: #757575;
   --title-color: #212121;
@@ -67,16 +72,17 @@ body {
   color: var(--hover-color);
 }
 
-.navigation-list {
+.navigation-list a {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.33;
   letter-spacing: 0.02em;
+  text-decoration: none;
   color: var(--title-color);
 }
 
-.navigation-item:hover,
-.navigation-item:focus {
+.navigation-item a:hover,
+.navigation-item a:focus {
   color: var(--hover-color);
   cursor: pointer;
 }
