@@ -41,6 +41,12 @@
   padding: 0;
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 :root {
   --text-color: #757575;
   --title-color: #212121;
